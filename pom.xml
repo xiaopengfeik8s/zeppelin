@@ -370,7 +370,11 @@
         <artifactId>shiro-config-core</artifactId>
         <version>${shiro.version}</version>
       </dependency>
-
+      <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-oauth</artifactId>
+        <version>${shiro.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcpkix-jdk15on</artifactId>
